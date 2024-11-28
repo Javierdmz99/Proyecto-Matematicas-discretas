@@ -1,0 +1,142 @@
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #F7F9FC; 
+    background-image: url('img/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #1E3A5F; 
+
+
+.titulo {
+    color: #1E3A5F; 
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+.subtitulo {
+    color: #3BAFDA; 
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+
+header {
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+nav {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    background: #1E3A5F; 
+    padding: 10px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    flex: 1; 
+    text-align: center;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F7F9FC;
+    font-weight: bold;
+    padding: 10px; 
+    display: block;
+    background: #3BAFDA; 
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 18px; 
+}
+
+nav ul li a:hover {
+    background: #F4A261; 
+    color: #FFFFFF;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagenes div {
+    text-align: center;
+    flex: 1; 
+    margin: 0 10px; 
+}
+
+.imagenes img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagenes img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.imagenes p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #1E3A5F; 
+    font-weight: bold;
+}
+
+footer {
+    background: linear-gradient(90deg, #1E3A5F, #3BAFDA); 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background: #F4A261; 
+    color: #FFFFFF; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #E76F51; 
+}
+
+}
